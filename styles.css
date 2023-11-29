@@ -117,18 +117,6 @@ header h1 {
   background-color: rgb(107, 126, 4);
 }
 
-/* .heroSubtitle{
-    font-family: var(--ff-ephesis);
-    font-size: 1.8rem;
-} */
-
-/* .contato{
-    min-height: 24rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
 .footerContent {
   display: flex;
   flex-direction: column;
