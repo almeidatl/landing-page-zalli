@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,900;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+/* font-family: 'Ephesis', cursive; */
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+:root{
+
+    /* Cores principais */
+    --verde: #3C3E30;
+    --branco: #FFFFFF;
+    /* Fontes */
+    --ff-serrat:'Montserrat', sans-serif;
+    --ff-poppins:'Poppins', sans-serif;
+    --ff-roboto:'Roboto', sans-serif;
+    --ff-ephesis:'Ephesis', cursive;
+}
+
+.wrapper{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+header{
+    background-image: url(imagens/mulher-floresta.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -4rem;
+    width: 100%;
+    height: 48rem;
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.topButton{
+    position: absolute;
+    top: 2rem;
+    right: 2rem; 
+    
+    cursor: pointer;
+    transition: .3s;
+}
+
+.topButton:hover{
+    transform: translateX(-.5rem);
+}
+
+header h1{
+    font-size: 14rem;
+    text-shadow: 4px 4px 12px black;
+    
+}
+
+.imageGrid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 4rem;
+    
+    max-width: 1920px;
+    
+
+}
+
+.imageGrid img{
+    border-radius: 1rem;
+    width: 350px;
+    
+}
+
+
+.hero{
+    /* background-color: #3C3E30;
+    color: #FFFFFF; */
+    min-height: 48rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.heroTitle{
+    font-size: 6rem;
+    font-family: var(--ff-ephesis);
+    font-weight: 100;
+    padding: 0 0 1rem 0;
+}
+
+.callBtn{
+    border: none;
+    border-radius: .5rem;
+    width: 24rem;
+    height: 3rem;
+    background-color: rgb(226, 123, 26);
+    font-size: 1.7rem;
+    transition: .3s;
+
+}
+
+.callBtn a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+.callBtn:hover{
+    background-color: rgb(107, 126, 4);
+}
+
+/* .heroSubtitle{
+    font-family: var(--ff-ephesis);
+    font-size: 1.8rem;
+} */
+
+
+
+
+/* .contato{
+    min-height: 24rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+.footerContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    width: 100%;
+    padding: 6rem;
+    background-color: var(--verde);
+    color: var(--branco);
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--ff-poppins);
+    gap: 2rem;
+}
