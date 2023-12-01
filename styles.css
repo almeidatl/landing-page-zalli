@@ -63,7 +63,7 @@ header {
 
 header h1 {
   font-size: 14rem;
-  text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.438);
+  /* text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.438); */
 }
 
 .imageGrid {
@@ -126,7 +126,8 @@ header h1 {
 }
 
 .callBtn:hover {
-  background-color: rgb(107, 126, 4);
+  background-color: var(--verde);
+  /* background-color: rgb(107, 126, 4); */
 }
 
 .footerContent {
