@@ -35,6 +35,7 @@ html {
 
 header {
   background-image: url(imagens/mulher-floresta.jpg);
+  /* background-image: url(imagens/Shop\ All\ _\ Necklaces\,\ Bracelets\,\ Earrings\ &\ More.jfif); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: -3rem;
@@ -86,17 +87,25 @@ header h1 {
 .hero {
   /* background-color: #3C3E30;
     color: #FFFFFF; */
-  min-height: 48rem;
+  /* min-height: 48rem; */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.heroTitle {
+/* .heroTitle {
   font-size: 6rem;
   font-family: var(--ff-ephesis);
   font-weight: 100;
   padding: 0 0 1rem 0;
+} */
+
+.callSection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 12rem;
+  padding-bottom: 4rem;
 }
 
 .callBtn {
