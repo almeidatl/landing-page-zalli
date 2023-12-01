@@ -62,22 +62,25 @@ header {
 
 header h1 {
   font-size: 14rem;
-  text-shadow: 4px 4px 12px black;
+  text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.438);
 }
 
 .imageGrid {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 2rem;
-  padding: 4rem;
+  padding: 4rem; */
 
-  max-width: 1920px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding: 4rem;
 }
 
 .imageGrid img {
   border-radius: 1rem;
-  width: 350px;
+  width: 300px;
 }
 
 .hero {
